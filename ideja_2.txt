@@ -8,7 +8,7 @@ Kādu problēmu šis projekts risina? (Vai tas ir rīks produktivitātei, izklai
 Atgaismo garlaicīgo ikdienu.
 
 Kas būs šī rīka galvenais lietotājs? (Piemēram, paši studenti, uzņēmēji, spēlētāji vai datu pētnieki)
-Lietotji: cilvēki ar telefonu(no 6 līdz 21).
+Lietotji: cilvēki ar telefonu(no 6 līdz 21), spēlētāji.
 
 Kā lietotājs mijiedarbosies ar programmu (konsolē, Telegram bots, vienkāršā GUI)?
 Konsole

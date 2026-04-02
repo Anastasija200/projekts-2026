@@ -1,17 +1,19 @@
 Kāds varētu būt projekta nosaukums?
-
+Telegram kanala moderators.
 
 Ko projekts dara vienā teikumā?
-
+Bots komantarijā atrod aizliegtos vārdus un pēc tam dod mute šo cilvēku, kas uzrakstīja šo aizliegto vārdu.
 
 Kādu problēmu šis projekts risina? (Vai tas ir rīks produktivitātei, izklaidei, datu analīze vai kas cits?)
-
+Problēma ar heitu un pārmērīga kritika.
 
 Kas būs šī rīka galvenais lietotājs? (Piemēram, paši studenti, uzņēmēji, spēlētāji vai datu pētnieki)
-
+Lietotji: cilvēki kam ir telefons, telegrams un telegrams kanals(no 8 gadi līdz 90).
 
 Kā lietotājs mijiedarbosies ar programmu (konsolē, Telegram bots, vienkāršā GUI)?
-
+Bots būs kā atsevišķs kanāls. Lietotājs šo kanalā ievadīt vārdus, kas viņš negrib redzēt.
 
 Kādas ir 3–5 galvenās funkcijas (must-have)?
-
+1) Pārbaudiet, vai nav aizliegtu vārdu
+2) Notīrīt komentārus
+3) Bloķējiet nevajadzīgas personas

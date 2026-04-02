@@ -1,17 +1,21 @@
 Kāds varētu būt projekta nosaukums?
-Haunted door(spēle)
+Haunted door(spēle).
 
 Ko projekts dara vienā teikumā?
-
+Tas ir spēle, kas drikst spēlēt koopa veida ar saviem draugiem.
 
 Kādu problēmu šis projekts risina? (Vai tas ir rīks produktivitātei, izklaidei, datu analīze vai kas cits?)
-
+Atgaismo garlaicīgo ikdienu.
 
 Kas būs šī rīka galvenais lietotājs? (Piemēram, paši studenti, uzņēmēji, spēlētāji vai datu pētnieki)
-
+Lietotji: cilvēki ar telefonu(no 6 līdz 21).
 
 Kā lietotājs mijiedarbosies ar programmu (konsolē, Telegram bots, vienkāršā GUI)?
-
+Konsole
 
 Kādas ir 3–5 galvenās funkcijas (must-have)?
-
+1) Drikst spēlēt ar saviem draugiem
+2) Ir meņu
+3) Ir taimeris pēc tam jāieņem vieta
+4) Ir Hinter
+5) Ir gultas, kas dod naudas, ja tur gulēsi

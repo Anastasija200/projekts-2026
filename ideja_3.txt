@@ -8,10 +8,12 @@ Kādu problēmu šis projekts risina? (Vai tas ir rīks produktivitātei, izklai
 Cilvēku pašapmierinātība un slinkums.
 
 Kas būs šī rīka galvenais lietotājs? (Piemēram, paši studenti, uzņēmēji, spēlētāji vai datu pētnieki)
-Cilvēki kam ir telefons.
+Cilvēki kam ir telefons vai komputers.
 
 Kā lietotājs mijiedarbosies ar programmu (konsolē, Telegram bots, vienkāršā GUI)?
-
+GUI
 
 Kādas ir 3–5 galvenās funkcijas (must-have)?
-
+1) Būt dienas un mēnisi
+2) Drikst rakstīt katrai dienā
+3) Drikst izdarīt chekbox

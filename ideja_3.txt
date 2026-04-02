@@ -1,14 +1,14 @@
 Kāds varētu būt projekta nosaukums?
-
+Dienasgrāmata.
 
 Ko projekts dara vienā teikumā?
-
+Elektroniskajā dienasgrāmatā var pierakstīt savus uzdevumus, veikt piezīmes un atzīmēt uzdevumus kā izpildītus vai nepabeigtus.
 
 Kādu problēmu šis projekts risina? (Vai tas ir rīks produktivitātei, izklaidei, datu analīze vai kas cits?)
-
+Cilvēku pašapmierinātība un slinkums.
 
 Kas būs šī rīka galvenais lietotājs? (Piemēram, paši studenti, uzņēmēji, spēlētāji vai datu pētnieki)
-
+Cilvēki kam ir telefons.
 
 Kā lietotājs mijiedarbosies ar programmu (konsolē, Telegram bots, vienkāršā GUI)?
 

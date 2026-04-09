@@ -21,3 +21,13 @@ Kādas ir 3–5 galvenās funkcijas (must-have)?
 ________________________________________________________
 
 Funkcionālās prasības:
+1) Var pievienot savu Google profilu, lai saglabat informaciju
+2) Var izdarīt jaunu piezime uz dienu
+3) Var izdarīt atzīme uz dienu
+4) Var atzimēt, ka šaja atzīme bija izdarīta
+5) Var ritināt mēnešus
+
+Nefunkcionālās prasības:
+1) Dizains: mierīgi krasās
+2) Dizains: izskāts kā kalendars
+3) 

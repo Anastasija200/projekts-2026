@@ -17,3 +17,7 @@ Kādas ir 3–5 galvenās funkcijas (must-have)?
 1) Būt dienas un mēnisi
 2) Drikst rakstīt katrai dienā
 3) Drikst izdarīt chekbox
+
+________________________________________________________
+
+Funkcionālās prasības:

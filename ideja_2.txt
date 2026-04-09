@@ -19,3 +19,12 @@ Kādas ir 3–5 galvenās funkcijas (must-have)?
 3) Ir taimeris pēc tam jāieņem vieta
 4) Ir Hinter
 5) Ir gultas, kas dod naudas, ja tur gulēsi
+
+
+Funkcionālās prasības:
+1) Var pieslēgties ar savu telefonu numuru un parole
+2) Var izdarīt savu vārdu spēlē
+3) Var atrāst savu draugu
+4) Var pievienoties spēle(uzspiež no pogu "play")
+5)  Var mainīt savu avataru
+

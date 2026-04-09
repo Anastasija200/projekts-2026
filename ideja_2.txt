@@ -20,6 +20,7 @@ Kādas ir 3–5 galvenās funkcijas (must-have)?
 4) Ir Hinter
 5) Ir gultas, kas dod naudas, ja tur gulēsi
 
+_______________________________________________________
 
 Funkcionālās prasības:
 1) Var pieslēgties ar savu telefonu numuru un parole
@@ -28,3 +29,7 @@ Funkcionālās prasības:
 4) Var pievienoties spēle(uzspiež no pogu "play")
 5)  Var mainīt savu avataru
 
+Nefunkcionālās prasības:
+1) Dizains galvēna menu jabūt biedējoši un tumši
+2) Spēles sets ilgst ne vairāk kā 5 minūtes
+3) Nika ne drikst izmantot lamuvārdi

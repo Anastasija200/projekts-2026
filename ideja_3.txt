@@ -30,4 +30,4 @@ Funkcionālās prasības:
 Nefunkcionālās prasības:
 1) Dizains: mierīgi krasās
 2) Dizains: izskāts kā kalendars
-3) 
+3) Programā jabūt latviešu un angļu valoda

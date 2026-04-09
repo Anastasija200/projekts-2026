@@ -18,6 +18,7 @@ Kādas ir 3–5 galvenās funkcijas (must-have)?
 2) Notīrīt komentārus
 3) Bloķējiet nevajadzīgas personas
 
+________________________________________________________
 
 Funkcionālās prasības:
 1) Var piesiet bota pie kanāla

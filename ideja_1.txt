@@ -17,3 +17,16 @@ Kādas ir 3–5 galvenās funkcijas (must-have)?
 1) Pārbaudiet, vai nav aizliegtu vārdu
 2) Notīrīt komentārus
 3) Bloķējiet nevajadzīgas personas
+
+
+Funkcionālās prasības:
+1) Var piesiet bota pie kanāla
+2) Var nostūtīt botu vārdus, kas būt melnaju sarakstū
+3) Var skatīt kādi cilvēki noķlūva melnajā sarakstā
+4) Var paskatīt viss sarakst, kādi vārdi tur ir
+5) Var atsaistīt robotprogrammatūru no Telegram kanāla?
+
+Nefunkcionālās prasības:
+1) Izskātās kā sarakste
+2) Bots atbīld ar ātrumu ne vairāk 2 sekundes
+3) Bots saprast latviešu un angļu vālodas

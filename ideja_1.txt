@@ -71,6 +71,3 @@ Priekšrocības:
 2.2) "AngryModerBot" : Var patstāvīgi uzsākt balsošanu par dalībnieku aizliegumu.
 2.3) "AngryModerBot" : Var apkopot statistiku par ziņojumiem.
 
-Izveidot ekrānšaviņus lai būtu redzams kā izskatās risinājums.
-
-Dotu informāciju saglabāt jaunā datnē Github repozitorijā.

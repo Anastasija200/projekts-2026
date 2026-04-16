@@ -48,3 +48,16 @@ Man liekas, ka 5.
 
 5) Cik efektīgi un saprotami šo projektu varēs nodemonstrēt klasei un skolotājam? (1 — ne efektīvi, 5 — efektīvi)
 Es domju, ka 4.
+
+________________________________________________________
+
+Atrast un salīdzinat vismaz divus līdzīgus jau esošus risinājumus.
+"SpamRemoverRobot" un "AngryModerBot"
+
+Analizēt esošo risinājumu priekšrocības, trūkumus un lietojamības aspektus. (uzrakstīt plusus un mīnusus)
+1) "SpamRemoverRobot" : Var izdzēst nejaušu lietotāju, kurš neiztur verifikāciju. 
+2) "AngryModerBot" : Moderēšanu ir viegli apiet, izmantojot speciālās rakstzīmes.
+
+Izveidot ekrānšaviņus lai būtu redzams kā izskatās risinājums.
+
+Dotu informāciju saglabāt jaunā datnē Github repozitorijā.

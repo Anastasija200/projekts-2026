@@ -31,3 +31,19 @@ Nefunkcionālās prasības:
 1) Izskātās kā sarakste
 2) Bots atbīld ar ātrumu ne vairāk 2 sekundes
 3) Bots saprast latviešu un angļu vālodas
+
+________________________________________________________
+
+1) Cik ļoti mani aizrauj šī tēma? (1 — ne pārāk, 5 — ļoti)
+Šī tema mani aizrauj uz 4.
+
+2) Cik viegli ideja ir realizējama atbilstoši manam pašreizējam zināšanu līmenim? (1 — grūti, 5 — viegli)
+Es domaju 4.
+
+3) Vai šī programma atrisina kādu reālu problēmu vai ir noderīga, saistoša ikdienā? (1 — ne atrisina, 5 — atrisina)
+Man liekas, ka 5.
+
+4) Vai šī programma atbilst visiem vērtēšanas kritērijiem? (1 — ne atbilst, 5 — atbilst)
+Šī programma atbilst 
+
+5) Cik efektīgi un saprotami šo projektu varēs nodemonstrēt klasei un skolotājam?

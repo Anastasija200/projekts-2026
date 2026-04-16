@@ -44,6 +44,7 @@ Es domaju 4.
 Man liekas, ka 5.
 
 4) Vai šī programma atbilst visiem vērtēšanas kritērijiem? (1 — ne atbilst, 5 — atbilst)
-Šī programma atbilst 
+Šī programma atbilst visiem kritērijiem.
 
-5) Cik efektīgi un saprotami šo projektu varēs nodemonstrēt klasei un skolotājam?
+5) Cik efektīgi un saprotami šo projektu varēs nodemonstrēt klasei un skolotājam? (1 — ne efektīvi, 5 — efektīvi)
+Es domju, ka 4.

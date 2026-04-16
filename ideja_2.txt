@@ -35,3 +35,17 @@ Nefunkcionālās prasības:
 3) Nika ne drikst izmantot lamuvārdi
 
 _______________________________________________________
+
+1) Cik ļoti mani aizrauj šī tēma? (1 — ne pārāk, 5 — ļoti)
+Šī programma mani interesē uz 5 punkti.
+
+2) Cik viegli ideja ir realizējama atbilstoši manam pašreizējam zināšanu līmenim? (1 — grūti, 5 — viegli)
+Man liekas, ka uztaisīt šo programmu ir ļoti grūti, 2 punkti.
+
+3) Vai šī programma atrisina kādu reālu problēmu vai ir noderīga, saistoša ikdienā? (1 — ne atrisina, 5 — atrisina)
+Ka es āgri rakstīju, šo programma atrisina problēmu ar garlaicīgu, 2 punkti.
+
+4) Vai šī programma atbilst visiem vērtēšanas kritērijiem? (1 — ne atbilst, 5 — atbilst)
+
+
+5) Cik efektīgi un saprotami šo projektu varēs nodemonstrēt klasei un skolotājam? (1 — ne efektīvi, 5 — efektīvi)

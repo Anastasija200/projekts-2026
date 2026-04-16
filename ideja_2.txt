@@ -33,3 +33,5 @@ Nefunkcionālās prasības:
 1) Dizains galvēna menu jabūt biedējoši un tumši
 2) Spēles sets ilgst ne vairāk kā 5 minūtes
 3) Nika ne drikst izmantot lamuvārdi
+
+_______________________________________________________

@@ -55,8 +55,21 @@ Atrast un salīdzinat vismaz divus līdzīgus jau esošus risinājumus.
 "SpamRemoverRobot" un "AngryModerBot"
 
 Analizēt esošo risinājumu priekšrocības, trūkumus un lietojamības aspektus. (uzrakstīt plusus un mīnusus)
-1) "SpamRemoverRobot" : Var izdzēst nejaušu lietotāju, kurš neiztur verifikāciju. 
-2) "AngryModerBot" : Moderēšanu ir viegli apiet, izmantojot speciālās rakstzīmes.
+Trūkumi:
+1.1) "SpamRemoverRobot" : Var izdzēst nejaušu lietotāju, kurš neiztur verifikāciju.
+1.2) "SpamRemoverRobot" : Katram jaunam dalībniekam ir jānokārto pārbaudījums.
+1.3) "SpamRemoverRobot" : Pareizu tekstu var sajaukt ar nepareizu.
+2.1) "AngryModerBot" : Moderēšanu ir viegli apiet, izmantojot speciālās rakstzīmes.
+2.2) "AngryModerBot" : Var izdzēst nejaušu lietotāju, kurš neiztur verifikāciju.
+2.3) "AngryModerBot" : Pareizu tekstu var sajaukt ar nepareizu.
+
+Priekšrocības:
+1.1) "SpamRemoverRobot" : Var noņemt tipiskus reklāmas ierakstus no jaunajiem dalībniekiem.
+1.2) "SpamRemoverRobot" : Var paziņot administratoriem par aizdomīgām darbībām.
+1.3) "SpamRemoverRobot" : Iestatīšana aizņem ne vairāk kā pāris minūtes.
+2.1) "AngryModerBot" : Sveicina jaunus lietotājus.
+2.2) "AngryModerBot" : Var patstāvīgi uzsākt balsošanu par dalībnieku aizliegumu.
+2.3) "AngryModerBot" : Var apkopot statistiku par ziņojumiem.
 
 Izveidot ekrānšaviņus lai būtu redzams kā izskatās risinājums.
 

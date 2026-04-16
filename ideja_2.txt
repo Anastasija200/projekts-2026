@@ -46,6 +46,7 @@ Man liekas, ka uztaisīt šo programmu ir ļoti grūti, 2 punkti.
 Ka es āgri rakstīju, šo programma atrisina problēmu ar garlaicīgu, 2 punkti.
 
 4) Vai šī programma atbilst visiem vērtēšanas kritērijiem? (1 — ne atbilst, 5 — atbilst)
-
+Es domaju, ka atbilst, 5 punkti.
 
 5) Cik efektīgi un saprotami šo projektu varēs nodemonstrēt klasei un skolotājam? (1 — ne efektīvi, 5 — efektīvi)
+ES domaju, ka uz 2 punkti, jo ir daudz neansi programmā.

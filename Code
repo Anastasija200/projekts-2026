@@ -1,0 +1,215 @@
+import json
+import telebot
+from telebot.types import ChatPermissions
+from datetime import datetime, timedelta
+
+
+bot_token = "8718476689:AAFjBOHl_f43BiIITOtjWFxnqH94BMcWlL8"
+bot = telebot.TeleBot(bot_token)
+
+data_file = "data.json"
+
+def load_data():
+
+    # Pārbaudīt vai fails eksiste
+    try:
+
+        with open(data_file, "r", encoding="utf-8") as file:
+            data = json.load(file)
+
+    except:
+
+        data = {
+            "bad_words": [
+                "spam",
+                "hate",
+                "idiot",
+                "dumb",
+                "sixseven",
+                "67"
+            ],
+            "muted_users": []
+        }
+
+        with open(data_file, "w", encoding="utf-8") as file:
+            json.dump(data, file, indent=4)
+    return data
+
+
+
+def save_data(data):
+
+    with open(data_file, "w", encoding="utf-8") as file:
+        json.dump(data, file, indent=4)
+
+
+
+@bot.message_handler(commands=["start"])
+def start_command(message):
+
+    bot.reply_to(
+        message,
+        "Sveiki! Es esmu moderācijas bots.\n\n"
+        "Pieejamās komandas:\n\n"
+        "/start - Parāda komandas\n"
+        "/addword vārds - Pievieno aizliegtu vārdu\n"
+        "/words - Parāda visus aizliegtos vārdus\n"
+        "/muted - Parāda muted lietotājus"
+    )
+
+@bot.message_handler(commands=["addword"])
+def add_word(message):
+
+    data = load_data()
+
+    message_parts = message.text.split()
+
+    # Pārbauda vai lietotājs ievadīja vārdu
+    if len(message_parts) < 2:
+
+        bot.reply_to(
+            message,
+            "Ieraksti vārdu pēc komandas."
+        )
+        return
+
+    bad_word = message_parts[1].lower()
+
+    # Pārbauda vārda garumu
+    if len(bad_word) < 2:
+
+        bot.reply_to(
+            message,
+            "Vārds ir pārāk īss."
+        )
+        return
+
+    # Pārbauda vai vārds jau eksistē
+    if bad_word in data["bad_words"]:
+
+        bot.reply_to(
+            message,
+            "Šis vārds jau eksistē."
+        )
+        return
+
+    data["bad_words"].append(bad_word)
+
+    save_data(data)
+
+    bot.reply_to(
+        message,
+        f"Vārds '{bad_word}' tika pievienots."
+    )
+
+@bot.message_handler(commands=["words"])
+def show_words(message):
+
+    data = load_data()
+
+    # Pārbauda vai saraksts ir tukšs
+    if len(data["bad_words"]) == 0:
+
+        bot.reply_to(
+            message,
+            "Nav aizliegtu vārdu."
+        )
+        return
+
+    words_text = "\n".join(data["bad_words"])
+
+    bot.reply_to(
+        message,
+        f"Aizliegtie vārdi:\n\n{words_text}"
+    )
+
+@bot.message_handler(commands=["muted"])
+def show_muted_users(message):
+
+    data = load_data()
+
+    # Pārbauda vai ir muted lietotāji
+    if len(data["muted_users"]) == 0:
+
+        bot.reply_to(
+            message,
+            "Muted lietotāju nav."
+        )
+        return
+
+    muted_text = ""
+
+    # Iziet cauri visiem lietotājiem
+    for user in data["muted_users"]:
+
+        muted_text += (
+            f"ID: {user['user_id']} | "
+            f"Vārds: {user['name']}\n"
+        )
+
+    bot.reply_to(
+        message,
+        muted_text
+    )
+
+@bot.message_handler(func=lambda message: True)
+def check_message(message):
+
+    data = load_data()
+
+    # Pārbauda vai eksistē teksts
+    if message.text is None:
+        return
+
+    message_text = message.text.lower()
+
+    # Iziet cauri visiem aizliegtajiem vārdiem
+    for bad_word in data["bad_words"]:
+
+        # Pārbauda vai ziņojumā ir aizliegtas vārds
+        if bad_word in message_text:
+            try:
+                bot.delete_message(
+                    message.chat.id,
+                    message.message_id
+                )
+
+                mute_time = datetime.now() + timedelta(minutes=1)
+
+                permissions = ChatPermissions(
+                    can_send_messages=False
+                )
+
+                # Iedod mute lietotājam
+                bot.restrict_chat_member(
+                    chat_id=message.chat.id,
+                    user_id=message.from_user.id,
+                    permissions=permissions,
+                    until_date=mute_time
+                )
+
+                muted_user = {
+                    "user_id": message.from_user.id,
+                    "name": message.from_user.first_name
+                }
+
+                data["muted_users"].append(muted_user)
+
+                save_data(data)
+
+                bot.send_message(
+                    message.chat.id,
+                    f"{message.from_user.first_name} saņēma mute uz 1 minūti."
+                )
+
+            # Kļūdu apstrāde
+            except Exception as error:
+                bot.send_message(
+                    message.chat.id,
+                    f"Kļūda: {error}"
+                )
+            break
+
+print("Bots darbojas...")
+bot.infinity_polling()
+
